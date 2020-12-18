@@ -9,7 +9,8 @@ function initMap() {
         zoom: 8
     });
     var request = {
-        query: document.getElementById("searchBar").textContent,
+        //query: document.getElementById("searchBar").textContent, 
+        query: "starbucks",
         fields: ["name", "geometry"]
     };
     svc = new google.maps.places.PlacesService(map);

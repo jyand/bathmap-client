@@ -2,7 +2,6 @@ let map: google.maps.Map ;
 let iw: google.maps.InfoWindow ;
 let svc: google.maps.places.PlacesService ;
 
-
 function initMap(): void {
         const nyc = new google.maps.LatLng(40.754, -73.999) ;
         iw = new google.maps.InfoWindow() ;
@@ -12,7 +11,8 @@ function initMap(): void {
         }) ;
 
         var request = {
-                query: document.getElementById("searchBar").textContent, 
+                //query: document.getElementById("searchBar").textContent, 
+                query: "starbucks",
                 fields: ["name", "geometry"],
         } ;
 

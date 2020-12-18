@@ -1,3 +1,7 @@
+#map {
+        height 400px ;
+        width: 100% ;
+}
 body {
         background-color: #002b36 ;
         text-decoration: none ;
