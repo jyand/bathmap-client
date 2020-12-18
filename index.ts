@@ -10,7 +10,7 @@ function initMap(): void {
                 zoom: 8,
         }) ;
 
-        var request = {
+        const request = {
                 //query: document.getElementById("searchBar").textContent, 
                 query: "starbucks",
                 fields: ["name", "geometry"],
