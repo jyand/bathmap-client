@@ -2,19 +2,23 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
         <title>John DeSalvo</title>
-        <link href="../style/index.css" rel="stylesheet" type="text/css"></link>
+        <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
+        <link href="../style/map.css" rel="stylesheet" type="text/css"></link>
 </head>
 <body>
 <nav>
-        <section><a href="web/map.html">Find a Bathroom</a></section>
+        <section><a href="../index.html">BathMap</a></section>
         <section><p id="login">Log In</p></section>
         <section><p id="register">Register</p></section>
         <section><a href="https://github.com/jyand/bathmap-client">BathMap on Github</a></section>
 </nav>
 <header id="top"></header>
 <main>
-        <script src="index.js"></script>
+        <div id="map"></div>
+        <script src="../map.js"></script>
 </main>
-<footer>&copy;Copyright 2020 - John DeSalvo</footer>
+<footer>
+        <p><img src="../img/applemaps.png"/></p>
+</footer>
 </body>
 </html>
